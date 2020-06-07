@@ -1,11 +1,6 @@
-.layout {
+.container {
     width: 1400px;
     height: 550px;
-}
-.heading {
-    width: 26px;
-    height: 405px;
-    display: inline;
 }
 h1 {
     text-align: center;
@@ -20,50 +15,46 @@ hr {
     width: 64px;
     margin-top: 30px;
     border: none;
-    display: block;
 }
-.text-one {
+.paragraph {
     text-align: center;
     font-size: 14px;
     margin-top: 32px;
+    color:#86878B;
 }
-.middle {
+main {
     margin-top: 80px;
     text-align: center;
 }
+
 .lamp, .keyboard, .light {
     display: inline-block;
-    width: 350px;
+    width:350px;
     height: 197px;
-    
 }
-.one {
-    width: 181px;
-    height: 21px;
-    display: inline;
+.pics-shine {
+    background: url(../img/lamp.png);
+}   
+.pics-key {
+    background: url(../img/keyboard.png);
 }
-.lori-one {
-    width: 350px;
-    height: 52px;
+.pics-storm {
+    background: url(../img/lighting.png);
 }
-a {
-    color:#86878B;
-}
-.cart-one {
-    background-color: transparent;
-    border: 2px solid #ff8c2c;
+.pics-shine, .pics-key, .pics-storm {
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 70px;
     height: 70px;
+    background-color: transparent;
+    border: 2px solid #ff8c2c;
     border-radius: 50%;
-    text-align: center;
-    margin: 0 auto;
+    margin: 0 auto;  
+    
 }
-.lamp-i {
-    margin: 21px 26px 21px 25px;
+h2 {
+    font-size: 20px;
 }
-.keyb-i {
-    margin: 24px 18px 25px 17px;
-}
-.ligh-i {
-    margin: 19px 27px 20px 26px;
+p {
+    color: #86878B;
 }
